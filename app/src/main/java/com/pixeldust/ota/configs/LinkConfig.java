@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota.configs;
+package com.pixeldust.ota.configs;
 
 import android.content.Context;
 
-import com.nitrogen.ota.xml.OTALink;
-import com.nitrogen.ota.xml.OTAParser;
-import com.nitrogen.ota.utils.OTAUtils;
+import com.pixeldust.ota.xml.OTALink;
+import com.pixeldust.ota.xml.OTAParser;
+import com.pixeldust.ota.utils.OTAUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

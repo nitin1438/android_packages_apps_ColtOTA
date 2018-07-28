@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota.utils;
+package com.pixeldust.ota.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,8 +23,8 @@ import android.net.Uri;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.nitrogen.ota.configs.OTAConfig;
-import com.nitrogen.ota.R;
+import com.pixeldust.ota.configs.OTAConfig;
+import com.pixeldust.ota.R;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -38,7 +38,7 @@ import java.util.Properties;
 
 public final class OTAUtils {
 
-    private static final String TAG = "NitrogenOTA";
+    private static final String TAG = "PixeldustOTA";
     private static final boolean DEBUG = true;
 
     private OTAUtils() {

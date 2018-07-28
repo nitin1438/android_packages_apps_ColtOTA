@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.nitrogen.ota.configs;
+package com.pixeldust.ota.configs;
 
 import android.content.Context;
 
-import com.nitrogen.ota.utils.OTAUtils;
+import com.pixeldust.ota.utils.OTAUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
