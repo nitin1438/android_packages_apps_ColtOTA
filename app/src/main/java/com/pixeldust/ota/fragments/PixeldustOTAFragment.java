@@ -96,7 +96,11 @@ public class PixeldustOTAFragment extends PreferenceFragment implements
                     linkPref.setTitle(getActivity().getResources().getString(R.string.links_rom_title));
                     linkPref.setSummary(getActivity().getResources().getString(R.string.links_rom_summary));
                     break;
-                case "changelog":
+                case "romirror":
+                    linkPref.setTitle(getActivity().getResources().getString(R.string.links_romirror_title));
+                    linkPref.setSummary(getActivity().getResources().getString(R.string.links_romirror_summary));
+                    break;
+                case "changelogs":
                     linkPref.setTitle(getActivity().getResources().getString(R.string.links_changelog_title));
                     linkPref.setSummary(getActivity().getResources().getString(R.string.links_changelog_summary));
                     break;

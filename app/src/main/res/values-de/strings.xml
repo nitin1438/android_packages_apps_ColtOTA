@@ -62,9 +62,11 @@
 
     <!-- Links -->
     <string name="links_rom_title">ROM</string>
-    <string name="links_rom_summary">Laden Sie die neueste Version für Ihr Gerät herunter</string>
+    <string name="links_rom_summary">Die neueste Version für Ihr Gerät herunterladen</string>
+    <string name="links_romirror_title">XDA Thread</string>
+    <string name="links_romirror_summary">Den XDA Thread für die ROM besuchen</string>
     <string name="links_changelog_title">Changelog</string>
-    <string name="links_changelog_summary">Laden Sie die neue Changelog-Datei herunter</string>
+    <string name="links_changelog_summary">Die letzten Änderungen anschauen</string>
     <string name="links_donation_title">Spende</string>
     <string name="links_donation_summary">Spenden Sie an den Entwickler</string>
 </resources>

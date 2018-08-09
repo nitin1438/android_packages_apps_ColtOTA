@@ -62,8 +62,10 @@
     <!-- Links -->
     <string name="links_rom_title">ROM</string>
     <string name="links_rom_summary">Download the latest release for your device</string>
+    <string name="links_romirror_title">XDA Thread</string>
+    <string name="links_romirror_summary">Visit The XDA Thread</string>
     <string name="links_changelog_title">Changelog</string>
-    <string name="links_changelog_summary">Download new changelog file</string>
+    <string name="links_changelog_summary">Check Out The Latest Changes</string>
     <string name="links_donation_title">Donation</string>
     <string name="links_donation_summary">Donate to developer</string>
 </resources>
