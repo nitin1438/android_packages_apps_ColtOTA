@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixeldust.ota.xml;
+package com.colt.ota.xml;
 
 import java.util.ArrayList;
 import java.util.List;

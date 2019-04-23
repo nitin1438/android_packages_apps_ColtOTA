@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixeldust.ota.fragments;
+package com.colt.ota.fragments;
 
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -25,18 +25,18 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import com.pixeldust.ota.R;
-import com.pixeldust.ota.configs.AppConfig;
-import com.pixeldust.ota.configs.LinkConfig;
-import com.pixeldust.ota.configs.OTAVersion;
-import com.pixeldust.ota.dialogs.WaitDialogFragment;
-import com.pixeldust.ota.tasks.CheckUpdateTask;
-import com.pixeldust.ota.utils.OTAUtils;
-import com.pixeldust.ota.xml.OTALink;
+import com.colt.ota.R;
+import com.colt.ota.configs.AppConfig;
+import com.colt.ota.configs.LinkConfig;
+import com.colt.ota.configs.OTAVersion;
+import com.colt.ota.dialogs.WaitDialogFragment;
+import com.colt.ota.tasks.CheckUpdateTask;
+import com.colt.ota.utils.OTAUtils;
+import com.colt.ota.xml.OTALink;
 
 import java.util.List;
 
-public class PixeldustOTAFragment extends PreferenceFragment implements
+public class ColtOTAFragment extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener,
         SharedPreferences.OnSharedPreferenceChangeListener ,
         WaitDialogFragment.OTADialogListener,
@@ -59,7 +59,7 @@ public class PixeldustOTAFragment extends PreferenceFragment implements
         super.onCreate(savedInstanceState);
         setRetainInstance(true);
 
-        addPreferencesFromResource(R.xml.pixeldust_ota);
+        addPreferencesFromResource(R.xml.colt_ota);
 
         mRomInfo = (PreferenceScreen) getPreferenceScreen().findPreference(KEY_ROM_INFO);
         mCheckUpdate = (PreferenceScreen) getPreferenceScreen().findPreference(KEY_CHECK_UPDATE);

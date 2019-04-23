@@ -1,4 +1,4 @@
-package com.pixeldust.ota;
+package com.colt.ota;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

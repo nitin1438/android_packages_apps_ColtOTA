@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixeldust.ota.configs;
+package com.colt.ota.configs;
 
 import android.app.AlarmManager;
 import android.app.job.JobInfo;
@@ -24,9 +24,9 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.pixeldust.ota.R;
-import com.pixeldust.ota.tasks.OTAService;
-import com.pixeldust.ota.utils.OTAUtils;
+import com.colt.ota.R;
+import com.colt.ota.tasks.OTAService;
+import com.colt.ota.utils.OTAUtils;
 
 import java.text.DateFormat;
 import java.util.Date;

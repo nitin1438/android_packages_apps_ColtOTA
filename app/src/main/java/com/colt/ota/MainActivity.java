@@ -14,31 +14,31 @@
  * limitations under the License.
  */
 
-package com.pixeldust.ota;
+package com.colt.ota;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 
-import com.pixeldust.ota.configs.LinkConfig;
-import com.pixeldust.ota.dialogs.WaitDialogFragment;
-import com.pixeldust.ota.fragments.PixeldustOTAFragment;
+import com.colt.ota.configs.LinkConfig;
+import com.colt.ota.dialogs.WaitDialogFragment;
+import com.colt.ota.fragments.ColtOTAFragment;
 
 public class MainActivity extends PreferenceActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {
 
-    private static final String FRAGMENT_TAG = PixeldustOTAFragment.class.getName();
-    private PixeldustOTAFragment mFragment;
+    private static final String FRAGMENT_TAG = ColtOTAFragment.class.getName();
+    private ColtOTAFragment mFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mFragment = (PixeldustOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
+        mFragment = (ColtOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
         if (mFragment == null) {
             getFragmentManager().beginTransaction()
-                    .replace(android.R.id.content, new PixeldustOTAFragment(), FRAGMENT_TAG)
+                    .replace(android.R.id.content, new ColtOTAFragment(), FRAGMENT_TAG)
                     .commit();
         }
 

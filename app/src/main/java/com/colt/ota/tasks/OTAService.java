@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.pixeldust.ota.tasks;
+package com.colt.ota.tasks;
 
 import android.app.job.JobParameters;
 import android.app.job.JobService;
 import android.os.AsyncTask;
 
-import com.pixeldust.ota.tasks.CheckUpdateTask;
-import com.pixeldust.ota.utils.OTAUtils;
+import com.colt.ota.tasks.CheckUpdateTask;
+import com.colt.ota.utils.OTAUtils;
 
 public class OTAService extends JobService {
 

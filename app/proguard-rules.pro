@@ -16,4 +16,4 @@
 #   public *;
 #}
 
--keep class com.pixeldust.ota.core.OTAListener
+-keep class com.colt.ota.core.OTAListener
